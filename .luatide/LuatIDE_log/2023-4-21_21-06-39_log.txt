@@ -1,0 +1,517 @@
+2023-04-21 21:06:42.2424 AT+LUATCONSOLE=1
+2023-04-21 21:06:42.2434 
+2023-04-21 21:06:42.2454 ATI
+2023-04-21 21:06:42.2454 
+2023-04-21 21:06:42.2464 LuatOS-Air_V4021_RDA8910_TTS_NOLVGL_FLOAT
+2023-04-21 21:06:42.2474 
+2023-04-21 21:06:42.2474 OK
+2023-04-21 21:07:07.5045 AT+LUATCONSOLE=1
+2023-04-21 21:07:07.5055 
+2023-04-21 21:07:07.8481 
+2023-04-21 21:07:07.8481 +CPIN: READY
+2023-04-21 21:07:07.8540 
+2023-04-21 21:07:07.8540 ^CARDMODE: 2
+2023-04-21 21:07:09.9215 
+2023-04-21 21:07:09.9215 ^MODE: 17,17
+2023-04-21 21:07:09.9215 
+2023-04-21 21:07:09.9596 
+2023-04-21 21:07:09.9606 *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.112.56.86"
+2023-04-21 21:07:10.0402 
+2023-04-21 21:07:10.0402 +NITZ: 23/04/21,13:07:10+32,0
+2023-04-21 21:07:10.0537 
+2023-04-21 21:07:10.0547 SMS READY
+2023-04-21 21:07:10.7127 > lualibc_fopen fail -4200062,0,/lib_err.txt
+2023-04-21 21:07:10.7137 lualibc_fopen fail -4200062,0,/luaerrinfo.txt
+2023-04-21 21:07:10.7147 lualibc_fopen fail -4200062,0,/lib_network_err.txt
+2023-04-21 21:07:10.7753 [I]-[poweron reason:] 3 RECORD 2.0.0 2.4.3 LuatOS-HMI_V4021_RDA8910
+2023-04-21 21:07:10.7770 [I]-[core build time] Jan 10 2023 21:27:16
+2023-04-21 21:07:10.7818 [I]-[ril.proatc] RDY
+2023-04-21 21:07:10.7829 [I]-[ril.proatc] RDY
+2023-04-21 21:07:10.7845 [I]-[ril.proatc] +CPIN: READY
+2023-04-21 21:07:10.7865 [I]-[ril.proatc] ^CARDMODE: 2
+2023-04-21 21:07:10.7875 [I]-[ril.defurc] ^CARDMODE: 2
+2023-04-21 21:07:10.7896 [I]-[ril.proatc] ^MODE: 17,17
+2023-04-21 21:07:10.7911 [I]-[net.UpdNetMode] nil 0 17 17
+2023-04-21 21:07:10.7931 [I]-[net.NET_UPD_NET_MODE] 4
+2023-04-21 21:07:10.7951 [I]-[ril.proatc] *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.112.56.86"
+2023-04-21 21:07:10.7966 [I]-[link.cgevurc] *CGEV: ACT,5,"CMIOT.MNC008.MCC460.GPRS","10.112.56.86"
+2023-04-21 21:07:10.7966 [I]-[ril.proatc] +NITZ: 23/04/21,13:07:10+32,0
+2023-04-21 21:07:10.7976 [I]-[ril.defurc] +NITZ: 23/04/21,13:07:10+32,0
+2023-04-21 21:07:10.7996 [I]-[ril.proatc] SMS READY
+2023-04-21 21:07:10.8006 [I]-[ril.defurc] SMS READY
+2023-04-21 21:07:10.8042 [I]-[ril.sendat] ATE0
+2023-04-21 21:07:10.8059 [I]-[SIM.subscribe] nil RDY
+2023-04-21 21:07:10.8122 [I]-[ril.proatc] ATE0
+2023-04-21 21:07:10.8132 [I]-[ril.defurc] ATE0
+2023-04-21 21:07:10.8331 [I]-[ril.proatc] OK
+2023-04-21 21:07:10.8351 [I]-[ril.defrsp] ATE0 true OK nil
+2023-04-21 21:07:10.8366 [I]-[ril.sendat] AT+CMEE=0
+2023-04-21 21:07:10.8617 [I]-[ril.proatc] OK
+2023-04-21 21:07:10.8637 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+2023-04-21 21:07:10.8662 [I]-[ril.sendat] AT+SIMCROSS?
+2023-04-21 21:07:10.8916 [I]-[ril.proatc] +SIMCROSS:0
+2023-04-21 21:07:10.8951 [I]-[ril.proatc] OK
+2023-04-21 21:07:10.8976 [I]-[ril.sendat] AT+COPS?
+2023-04-21 21:07:10.9761 [I]-[ril.proatc] +COPS: 0,2,"46000",7
+2023-04-21 21:07:10.9782 [I]-[cops] 2 46000 nil
+2023-04-21 21:07:10.9813 [I]-[ril.proatc] OK
+2023-04-21 21:07:10.9823 [I]-[ril.defrsp] AT+COPS? true OK nil
+2023-04-21 21:07:10.9853 [I]-[ril.sendat] AT+CREG=2
+2023-04-21 21:07:11.0114 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.0124 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+2023-04-21 21:07:11.0154 [I]-[ril.sendat] AT+CGREG=2
+2023-04-21 21:07:11.0399 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.0419 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+2023-04-21 21:07:11.0439 [I]-[ril.sendat] AT+CEREG=2
+2023-04-21 21:07:11.0684 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.0704 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+2023-04-21 21:07:11.0734 [I]-[ril.sendat] AT+CREG?
+2023-04-21 21:07:11.0989 [I]-[ril.proatc] +CREG: 2,1,"18ae","0872aca1",7
+2023-04-21 21:07:11.1010 [I]-[net.creg1] 4 +CEREG: 
+2023-04-21 21:07:11.1042 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.1063 [I]-[ril.defrsp] AT+CREG? true OK nil
+2023-04-21 21:07:11.1078 [I]-[ril.sendat] AT+CGREG?
+2023-04-21 21:07:11.1349 [I]-[ril.proatc] +CGREG: 2,1,"18AE","0872aca1"
+2023-04-21 21:07:11.1364 [I]-[net.creg1] 4 +CEREG: 
+2023-04-21 21:07:11.1404 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.1424 [I]-[ril.defrsp] AT+CGREG? true OK nil
+2023-04-21 21:07:11.1444 [I]-[ril.sendat] AT+CEREG?
+2023-04-21 21:07:11.1699 [I]-[ril.proatc] +CEREG: 2,1,"18ae","0872aca1",7
+2023-04-21 21:07:11.1719 [I]-[net.creg1] 4 +CEREG: 
+2023-04-21 21:07:11.1729 [I]-[net.creg7] 1 7
+2023-04-21 21:07:11.1764 [I]-[net.UpdNetMode] nil 4 17 17
+2023-04-21 21:07:11.1795 [I]-[link.Pdp_Act] false 4 nil
+2023-04-21 21:07:11.1855 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.1880 [I]-[ril.defrsp] AT+CEREG? true OK nil
+2023-04-21 21:07:11.1905 [I]-[ril.sendat] AT+CALIBINFO?
+2023-04-21 21:07:11.2165 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+2023-04-21 21:07:11.2170  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+2023-04-21 21:07:11.2200 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+2023-04-21 21:07:11.2230 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.2265 [I]-[ril.sendat] AT*BAND?
+2023-04-21 21:07:11.2513 [I]-[ril.proatc] ERROR
+2023-04-21 21:07:11.2535 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+2023-04-21 21:07:11.2556 [I]-[ril.sendat] AT+EEMOPT=1
+2023-04-21 21:07:11.2807 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.2837 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:07:11.3107 [I]-[ril.proatc] +CSQ: 20,99
+2023-04-21 21:07:11.3147 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.3172 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:07:11.3443 [I]-[ril.proatc] +CESQ: 99,99,255,255,34,46
+2023-04-21 21:07:11.3468 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.3498 [I]-[ril.sendat] AT+EEMGINFO?
+2023-04-21 21:07:11.3764 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2023-04-21 21:07:11.3773 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2023-04-21 21:07:11.3803 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.3823 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2023-04-21 21:07:11.3853 [I]-[ril.sendat] AT+RNDISCALL=0,1
+2023-04-21 21:07:11.4133 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.4153 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+2023-04-21 21:07:11.4178 [I]-[ril.sendat] AT+CIND=1
+2023-04-21 21:07:11.4427 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.4460 [I]-[ril.sendat] AT+WISN?
+2023-04-21 21:07:11.4701 [I]-[ril.proatc] 29166038262288
+2023-04-21 21:07:11.4741 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.4766 [I]-[ril.sendat] AT+CGSN
+2023-04-21 21:07:11.5023 [I]-[ril.proatc] 863569061734109
+2023-04-21 21:07:11.5063 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.5088 [I]-[ril.sendat] AT+MUID?
+2023-04-21 21:07:11.5334 [I]-[ril.proatc] +MUID: 20221209154949A754579A2283392719
+2023-04-21 21:07:11.5369 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.5400 [I]-[ril.sendat] AT*EXINFO?
+2023-04-21 21:07:11.5650 [I]-[ril.proatc] *EXINFO:poweron=3
+2023-04-21 21:07:11.5665 [I]-[ril.defurc] *EXINFO:poweron=3
+2023-04-21 21:07:11.5695 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.5715 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+2023-04-21 21:07:11.5735 [I]-[ril.sendat] AT+CGMM
+2023-04-21 21:07:11.5984 [I]-[ril.proatc] +CGMM: "Air724UG"
+2023-04-21 21:07:11.6024 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.6054 [I]-[ril.sendat] AT+CMIC=2,1
+2023-04-21 21:07:11.6300 [I]-[ril.proatc] ERROR
+2023-04-21 21:07:11.6330 [I]-[ril.sendat] AT+ICCID
+2023-04-21 21:07:11.6750 [I]-[ril.proatc] +ICCID: 898604B72622D0143347
+2023-04-21 21:07:11.6786 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.6816 [I]-[ril.sendat] AT+CIMI
+2023-04-21 21:07:11.7236 [I]-[ril.proatc] 460083799601347
+2023-04-21 21:07:11.7271 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.7301 [I]-[ril.sendat] AT+COPS?
+2023-04-21 21:07:11.8063 [I]-[ril.proatc] +COPS: 0,2,"46000",7
+2023-04-21 21:07:11.8083 [I]-[cops] 2 46000 nil
+2023-04-21 21:07:11.8113 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.8133 [I]-[ril.defrsp] AT+COPS? true OK nil
+2023-04-21 21:07:11.8153 [I]-[ril.sendat] AT+CEREG?
+2023-04-21 21:07:11.8413 [I]-[ril.proatc] +CEREG: 2,1,"18ae","0872aca1",7
+2023-04-21 21:07:11.8433 [I]-[net.creg1] 4 +CEREG: 
+2023-04-21 21:07:11.8443 [I]-[net.creg7] 1 7
+2023-04-21 21:07:11.8453 [I]-[net.UpdNetMode] nil 4 17 17
+2023-04-21 21:07:11.8485 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.8505 [I]-[ril.defrsp] AT+CEREG? true OK nil
+2023-04-21 21:07:11.8525 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:07:11.8801 [I]-[ril.proatc] +CSQ: 20,99
+2023-04-21 21:07:11.8831 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.8861 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:07:11.9122 [I]-[ril.proatc] +CESQ: 99,99,255,255,34,46
+2023-04-21 21:07:11.9152 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.9183 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:07:11.9450 [I]-[ril.proatc] +CSQ: 20,99
+2023-04-21 21:07:11.9485 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.9515 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:07:11.9782 [I]-[ril.proatc] +CESQ: 99,99,255,255,34,46
+2023-04-21 21:07:11.9812 [I]-[ril.proatc] OK
+2023-04-21 21:07:11.9842 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:07:12.0125 [I]-[ril.proatc] +CSQ: 20,99
+2023-04-21 21:07:12.0155 [I]-[ril.proatc] OK
+2023-04-21 21:07:12.0186 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:07:12.0446 [I]-[ril.proatc] +CESQ: 99,99,255,255,34,46
+2023-04-21 21:07:12.0481 [I]-[ril.proatc] OK
+2023-04-21 21:07:12.0511 [I]-[ril.sendat] AT+EEMGINFO?
+2023-04-21 21:07:12.0762 [I]-[ril.proatc] ERROR
+2023-04-21 21:07:12.0793 [I]-[ril.defrsp] AT+EEMGINFO? false ERROR nil
+2023-04-21 21:07:12.0813 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:07:12.1075 [I]-[ril.proatc] +CSQ: 20,99
+2023-04-21 21:07:12.1105 [I]-[ril.proatc] OK
+2023-04-21 21:07:12.1145 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:07:12.1401 [I]-[ril.proatc] +CESQ: 99,99,255,255,34,46
+2023-04-21 21:07:12.1431 [I]-[ril.proatc] OK
+2023-04-21 21:07:12.1815 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+2023-04-21 21:07:13.1861 [I]-[ril.sendat] AT+CGDCONT?
+2023-04-21 21:07:13.2131 [I]-[ril.proatc] +CGDCONT: 5,"IP","CMIOT","10.112.56.86",0,0
+2023-04-21 21:07:13.2161 [I]-[link.pdpCmdCnf] AT+CGDCONT? true OK +CGDCONT: 5,"IP","CMIOT","10.112.56.86",0,0
+2023-04-21 21:07:13.2167 [I]-[analysis_cgdcont end] +CGDCONT: 5,"IP","CMIOT","10.112.56.86",0,0 nil nil
+2023-04-21 21:07:13.2177 [I]-[analysis_cgdcont ] 5 "IP" "CMIOT" 10.112.56.86
+2023-04-21 21:07:13.2227 [I]-[ril.proatc] OK
+2023-04-21 21:07:13.2262 [I]-[link.pdpCmdCnf] CONNECT_DELAY true nil nil
+2023-04-21 21:07:13.2262 [I]-[publish IP_READY_IND]
+2023-04-21 21:07:13.2312 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 UDP dev_msg1.openluat.com 12425 nil 120
+2023-04-21 21:07:13.2873 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2023-04-21 21:07:13.2883 [I]-[socket:connect: connect ok]
+2023-04-21 21:07:13.2893 [D]-[socket.send] total 17 bytes first 30 bytes 
+2023-04-21 21:07:13.2949 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2023-04-21 21:07:13.4075 [D]-[socket.recv] 8 nil
+2023-04-21 21:07:13.4095 [I]-[socket:sock_close] 0
+2023-04-21 21:07:13.4125 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2023-04-21 21:07:14.3813 
+2023-04-21 21:07:14.3813 +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 1, 46, 32, 27, 46, 32, 46, 32, 65535, 0, 10, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:07:14.3839 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 1, 46, 32, 27, 46, 32, 46, 32, 65535, 0, 10
+2023-04-21 21:07:14.3839 , 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:07:14.3874 [I]-[eemLteSvc1] 6318 141733025  1120 0
+2023-04-21 21:07:14.3904 
+2023-04-21 21:07:14.3904 +EEMLTEINTRA:0,0,0,0,0,0,0,0,0
+2023-04-21 21:07:15.7737 [I]-[record.delete]
+2023-04-21 21:07:15.7977 [I]-[record.start] 5 FILE 3
+2023-04-21 21:07:20.8060 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:07:20.8150 [I]-[testRecord.rcdcb] true 4452
+2023-04-21 21:07:21.8193 [I]-[record.getData] 1024
+2023-04-21 21:07:21.8213 [I]-[testRecord.readrcd] 0 5.3466796875 1024
+2023-04-21 21:07:22.8251 [I]-[record.getData] 1024
+2023-04-21 21:07:22.8261 [I]-[testRecord.readrcd] 1024 4.3466796875 1024
+2023-04-21 21:07:23.8295 [I]-[record.getData] 1024
+2023-04-21 21:07:23.8305 [I]-[testRecord.readrcd] 2048 3.3466796875 1024
+2023-04-21 21:07:24.8350 [I]-[record.getData] 1024
+2023-04-21 21:07:24.8360 [I]-[testRecord.readrcd] 3072 2.3466796875 1024
+2023-04-21 21:07:25.8398 [I]-[record.getData] 356
+2023-04-21 21:07:25.8408 [I]-[testRecord.readrcd] 4096 1.3466796875 356
+2023-04-21 21:07:26.8438 [I]-[record.getData] 0
+2023-04-21 21:07:26.8458 [I]-[testRecord.readrcd] 5120 0.3466796875 0
+2023-04-21 21:07:26.8478 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:07:26.8489 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:07:26.8519 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:07:27.4176 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:07:32.3766 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:07:32.5836 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:07:32.5846 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:07:32.5861 [I]-[testRecord.playcb] 0
+2023-04-21 21:07:32.5871 [I]-[record.delete]
+2023-04-21 21:07:32.5921 [I]-[record.delete]
+2023-04-21 21:07:32.6147 [I]-[record.start] 5 FILE 3
+2023-04-21 21:07:32.6172 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:07:35.6179 [I]-[record.stop]
+2023-04-21 21:07:35.6999 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:07:35.7019 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:07:36.7066 [I]-[record.getData] 1024
+2023-04-21 21:07:36.7085 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:07:37.7115 [I]-[record.getData] 1024
+2023-04-21 21:07:37.7135 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:07:38.7175 [I]-[record.getData] 604
+2023-04-21 21:07:38.7195 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:07:39.7224 [I]-[record.getData] 0
+2023-04-21 21:07:39.7233 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:07:39.7253 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:07:39.7284 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:07:40.3007 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:07:43.2636 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:07:43.4703 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:07:43.4713 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:07:43.4723 [I]-[testRecord.playcb] 0
+2023-04-21 21:07:43.4733 [I]-[record.delete]
+2023-04-21 21:07:43.4785 [I]-[record.delete]
+2023-04-21 21:07:43.5005 [I]-[record.start] 5 FILE 3
+2023-04-21 21:07:43.5025 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:07:46.5042 [I]-[record.stop]
+2023-04-21 21:07:46.5163 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:07:46.5188 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:07:47.5239 [I]-[record.getData] 1024
+2023-04-21 21:07:47.5254 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:07:48.5287 [I]-[record.getData] 1024
+2023-04-21 21:07:48.5307 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:07:49.5339 [I]-[record.getData] 604
+2023-04-21 21:07:49.5355 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:07:50.5393 [I]-[record.getData] 0
+2023-04-21 21:07:50.5403 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:07:50.5413 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:07:50.5443 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:07:51.1160 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:07:54.0805 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:07:54.2872 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:07:54.2882 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:07:54.2892 [I]-[testRecord.playcb] 0
+2023-04-21 21:07:54.2902 [I]-[record.delete]
+2023-04-21 21:07:54.2952 [I]-[record.delete]
+2023-04-21 21:07:54.3177 [I]-[record.start] 5 FILE 3
+2023-04-21 21:07:54.3197 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:07:57.3200 [I]-[record.stop]
+2023-04-21 21:07:57.3330 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:07:57.3350 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:07:58.3394 [I]-[record.getData] 1024
+2023-04-21 21:07:58.3414 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:07:59.3451 [I]-[record.getData] 1024
+2023-04-21 21:07:59.3461 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:00.3510 [I]-[record.getData] 604
+2023-04-21 21:08:00.3510 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:01.3539 [I]-[record.getData] 0
+2023-04-21 21:08:01.3559 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:01.3579 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:01.3599 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:01.9332 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:04.8969 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:05.1032 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:05.1057 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:05.1067 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:05.1067 [I]-[record.delete]
+2023-04-21 21:08:05.1117 [I]-[record.delete]
+2023-04-21 21:08:05.1333 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:05.1358 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:08:08.1368 [I]-[record.stop]
+2023-04-21 21:08:08.1504 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:08:08.1524 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:08:09.1568 [I]-[record.getData] 1024
+2023-04-21 21:08:09.1588 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:08:10.1625 [I]-[record.getData] 1024
+2023-04-21 21:08:10.1635 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:10.6150 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:08:10.6437 [I]-[ril.proatc] +CSQ: 21,99
+2023-04-21 21:08:10.6469 [I]-[ril.proatc] OK
+2023-04-21 21:08:10.6508 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:08:10.6780 [I]-[ril.proatc] +CESQ: 99,99,255,255,23,42
+2023-04-21 21:08:10.6810 [I]-[ril.proatc] OK
+2023-04-21 21:08:10.6830 [I]-[ril.sendat] AT+EEMGINFO?
+2023-04-21 21:08:10.7111 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2023-04-21 21:08:10.7121 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2023-04-21 21:08:10.7147 [I]-[ril.proatc] OK
+2023-04-21 21:08:10.7167 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2023-04-21 21:08:11.1678 [I]-[record.getData] 604
+2023-04-21 21:08:11.1688 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:12.1094 
+2023-04-21 21:08:12.1094 +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 65535, 44, 25, 30, 44, 25, 44, 25, 65535, 0, 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:08:12.1114 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 65535, 44, 25, 30, 44, 25, 44, 25, 65535, 0
+2023-04-21 21:08:12.1124 , 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:08:12.1159 [I]-[eemLteSvc1] 6318 141733025  1120 0
+2023-04-21 21:08:12.1199 
+2023-04-21 21:08:12.1199 +EEMLTEINTRA:0,0,267,42,21,1120,0,6318,27292190
+2023-04-21 21:08:12.1199 
+2023-04-21 21:08:12.1199 +EEMLTEINTER:0,0,68,39,19,1120,0,6318,12613451
+2023-04-21 21:08:12.1199 
+2023-04-21 21:08:12.1209 +EEMLTEINTER:1,0,171,18,6,1120,0,6318,29385985
+2023-04-21 21:08:12.1732 [I]-[record.getData] 0
+2023-04-21 21:08:12.1747 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:12.1767 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:12.1787 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:12.7364 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:15.6998 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:15.9068 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:15.9078 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:15.9088 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:15.9098 [I]-[record.delete]
+2023-04-21 21:08:15.9143 [I]-[record.delete]
+2023-04-21 21:08:15.9375 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:15.9395 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:08:18.9402 [I]-[record.stop]
+2023-04-21 21:08:18.9517 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:08:18.9552 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:08:19.9596 [I]-[record.getData] 1024
+2023-04-21 21:08:19.9605 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:08:20.9644 [I]-[record.getData] 1024
+2023-04-21 21:08:20.9655 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:21.9686 [I]-[record.getData] 604
+2023-04-21 21:08:21.9706 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:22.9740 [I]-[record.getData] 0
+2023-04-21 21:08:22.9750 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:22.9770 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:22.9800 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:23.5261 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:26.4902 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:26.6972 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:26.6982 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:26.6992 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:26.7002 [I]-[record.delete]
+2023-04-21 21:08:26.7052 [I]-[record.delete]
+2023-04-21 21:08:26.7274 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:26.7294 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:08:29.7310 [I]-[record.stop]
+2023-04-21 21:08:29.7435 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:08:29.7460 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:08:30.7503 [I]-[record.getData] 1024
+2023-04-21 21:08:30.7523 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:08:31.7575 [I]-[record.getData] 1024
+2023-04-21 21:08:31.7605 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:32.7649 [I]-[record.getData] 604
+2023-04-21 21:08:32.7659 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:33.7694 [I]-[record.getData] 0
+2023-04-21 21:08:33.7714 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:33.7724 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:33.7759 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:34.3348 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:37.2990 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:37.5049 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:37.5069 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:37.5079 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:37.5089 [I]-[record.delete]
+2023-04-21 21:08:37.5129 [I]-[record.delete]
+2023-04-21 21:08:37.5357 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:37.5376 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:08:40.5391 [I]-[record.stop]
+2023-04-21 21:08:40.5512 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:08:40.5548 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:08:41.5598 [I]-[record.getData] 1024
+2023-04-21 21:08:41.5608 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:08:42.5642 [I]-[record.getData] 1024
+2023-04-21 21:08:42.5662 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:43.5698 [I]-[record.getData] 604
+2023-04-21 21:08:43.5708 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:44.5735 [I]-[record.getData] 0
+2023-04-21 21:08:44.5755 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:44.5775 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:44.5795 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:45.1414 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:48.1067 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:48.3133 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:48.3139 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:48.3159 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:48.3159 [I]-[record.delete]
+2023-04-21 21:08:48.3209 [I]-[record.delete]
+2023-04-21 21:08:48.4113 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:48.4133 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:08:51.4146 [I]-[record.stop]
+2023-04-21 21:08:51.4271 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:08:51.4291 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:08:52.4335 [I]-[record.getData] 1024
+2023-04-21 21:08:52.4350 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:08:53.4385 [I]-[record.getData] 1024
+2023-04-21 21:08:53.4405 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:08:54.4442 [I]-[record.getData] 604
+2023-04-21 21:08:54.4452 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:08:55.4480 [I]-[record.getData] 0
+2023-04-21 21:08:55.4500 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:08:55.4521 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:08:55.4536 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:08:56.0262 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:08:58.9896 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:08:59.1973 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:08:59.1983 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:08:59.1993 [I]-[testRecord.playcb] 0
+2023-04-21 21:08:59.2003 [I]-[record.delete]
+2023-04-21 21:08:59.2043 [I]-[record.delete]
+2023-04-21 21:08:59.2270 [I]-[record.start] 5 FILE 3
+2023-04-21 21:08:59.2290 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:09:02.2303 [I]-[record.stop]
+2023-04-21 21:09:02.2423 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:09:02.2455 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:09:03.2499 [I]-[record.getData] 1024
+2023-04-21 21:09:03.2509 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:09:04.2559 [I]-[record.getData] 1024
+2023-04-21 21:09:04.2579 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:09:05.2618 [I]-[record.getData] 604
+2023-04-21 21:09:05.2653 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:09:06.2691 [I]-[record.getData] 0
+2023-04-21 21:09:06.2711 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:09:06.2731 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:09:06.2754 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:09:06.8468 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:09:09.8115 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:09:10.0194 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:09:10.0204 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:09:10.0214 [I]-[testRecord.playcb] 0
+2023-04-21 21:09:10.0214 [I]-[record.delete]
+2023-04-21 21:09:10.0269 [I]-[record.delete]
+2023-04-21 21:09:10.0499 [I]-[record.start] 5 FILE 3
+2023-04-21 21:09:10.0519 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:09:10.6190 [I]-[ril.sendat] AT+CSQ
+2023-04-21 21:09:10.6465 [I]-[ril.proatc] +CSQ: 21,99
+2023-04-21 21:09:10.6540 [I]-[ril.proatc] OK
+2023-04-21 21:09:10.6580 [I]-[ril.sendat] AT+CESQ
+2023-04-21 21:09:10.6840 [I]-[ril.proatc] +CESQ: 99,99,255,255,29,46
+2023-04-21 21:09:10.6870 [I]-[ril.proatc] OK
+2023-04-21 21:09:10.6945 [I]-[ril.sendat] AT+EEMGINFO?
+2023-04-21 21:09:10.7215 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2023-04-21 21:09:10.7230 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2023-04-21 21:09:10.7251 [I]-[ril.proatc] OK
+2023-04-21 21:09:10.7271 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2023-04-21 21:09:11.7929 
+2023-04-21 21:09:11.7929 +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 65535, 45, 26, 28, 45, 26, 45, 26, 65535, 0, 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:09:11.7960 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 6318, 309, 38950, 38950, 40, 5, 141733025, 65535, 45, 26, 28, 45, 26, 45, 26, 65535, 0
+2023-04-21 21:09:11.7960 , 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2023-04-21 21:09:11.7990 [I]-[eemLteSvc1] 6318 141733025  1120 0
+2023-04-21 21:09:11.8030 
+2023-04-21 21:09:11.8035 +EEMLTEINTRA:0,0,267,44,27,1120,0,6318,27292190
+2023-04-21 21:09:11.8035 
+2023-04-21 21:09:11.8035 +EEMLTEINTER:0,0,0,35,10,1120,0,6318,27366418
+2023-04-21 21:09:11.8035 
+2023-04-21 21:09:11.8035 +EEMLTEINTER:1,0,68,38,20,1120,0,6318,12613451
+2023-04-21 21:09:11.8035 
+2023-04-21 21:09:11.8035 +EEMLTEINTRA:1,0,227,34,9,1120,0,6318,12613472
+2023-04-21 21:09:11.8045 
+2023-04-21 21:09:11.8045 +EEMLTEINTER:2,0,171,20,12,1120,0,6318,29385985
+2023-04-21 21:09:13.0527 [I]-[record.stop]
+2023-04-21 21:09:13.0656 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:09:13.0685 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:09:14.0727 [I]-[record.getData] 1024
+2023-04-21 21:09:14.0743 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:09:15.0770 [I]-[record.getData] 1024
+2023-04-21 21:09:15.0790 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:09:16.0827 [I]-[record.getData] 604
+2023-04-21 21:09:16.0846 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:09:17.0867 [I]-[record.getData] 0
+2023-04-21 21:09:17.0887 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:09:17.0907 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:09:17.0932 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:09:17.6644 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:09:20.6294 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:09:20.8364 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:09:20.8374 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:09:20.8384 [I]-[testRecord.playcb] 0
+2023-04-21 21:09:20.8394 [I]-[record.delete]
+2023-04-21 21:09:20.8440 [I]-[record.delete]
+2023-04-21 21:09:20.8670 [I]-[record.start] 5 FILE 3
+2023-04-21 21:09:20.8690 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+2023-04-21 21:09:23.8692 [I]-[record.stop]
+2023-04-21 21:09:23.8823 [I]-[record.MSG_RECORD] true nil FILE
+2023-04-21 21:09:23.8844 [I]-[testRecord.rcdcb] true 2652
+2023-04-21 21:09:24.8887 [I]-[record.getData] 1024
+2023-04-21 21:09:24.8907 [I]-[testRecord.readrcd] 0 3.5888671875 1024
+2023-04-21 21:09:25.8942 [I]-[record.getData] 1024
+2023-04-21 21:09:25.8952 [I]-[testRecord.readrcd] 1024 2.5888671875 1024
+2023-04-21 21:09:26.8991 [I]-[record.getData] 604
+2023-04-21 21:09:26.9001 [I]-[testRecord.readrcd] 2048 1.5888671875 604
+2023-04-21 21:09:27.9040 [I]-[record.getData] 0
+2023-04-21 21:09:27.9050 [I]-[testRecord.readrcd] 3072 0.5888671875 0
+2023-04-21 21:09:27.9070 [I]-[audio.play] 0 FILE /record.amr 7 function: 0x80c4d800 nil nil
+2023-04-21 21:09:27.9090 [I]-[audioTask] FILE #audioQueue 1
+2023-04-21 21:09:28.4815 [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+2023-04-21 21:09:31.4443 [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+2023-04-21 21:09:31.6507 [I]-[audio.handlePlayInd] RESULT true
+2023-04-21 21:09:31.6522 [I]-[audio.handleCb] function: 0x80c4d800 0
+2023-04-21 21:09:31.6532 [I]-[testRecord.playcb] 0
+2023-04-21 21:09:31.6542 [I]-[record.delete]
+2023-04-21 21:09:31.6592 [I]-[record.delete]
+2023-04-21 21:09:31.6814 [I]-[record.start] 5 FILE 3
+2023-04-21 21:09:31.6845 [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY

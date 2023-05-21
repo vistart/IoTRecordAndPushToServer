@@ -1,0 +1,18 @@
+{
+	"version": "2.6",
+	"projectName": "record",
+	"projectType": "example",
+	"corePath": "C:\\Users\\i\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-HMI_V4021_RDA8910.pac",
+	"libPath": "C:\\Users\\i\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.3\\lib",
+	"moduleModel": "air72XUX/air82XUX",
+	"appFile": [
+		"luatide_project.json",
+		"main.lua",
+		"testRecord.lua",
+		"testRecordSpeexStream.lua",
+		"testRecordStream.lua"
+	],
+	"modulePort": "",
+	"ignore": [],
+	"simulatorRun": "disable"
+}
